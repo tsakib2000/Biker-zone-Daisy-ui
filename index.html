@@ -38,8 +38,22 @@
     <nav>
         <div class="navbar bg-base-100">
             <div class="flex-1">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+         
+              <a class="font-bold text-xl">Biker Zone</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <a class="btn bg-bike-primary text-white">Login</a>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -55,30 +69,17 @@
                 </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
                   <li><a>Home</a></li>
                   <li><a>Shop</a></li>
                   <li><a>News</a></li>
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="font-bold text-xl">Biker Zone</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                  <li><a>Shop</a></li>
-                  <li><a>News</a></li>
-                  <li><a>Contact</a></li>
-              </ul>
-            </div>
-            <div class="">
-              <a class="btn bg-bike-primary text-white">Login</a>
-            </div>
           </div>
     </nav>
     <!-- Slider/ carousel  -->
-    <div class="carousel w-full bg-bike-primary-bg h-[550px]">
+    <div class="carousel w-full bg-bike-primary-bg lg:h-[550px]">
         <!-- Slide-1  -->
         <div id="slide1" class="carousel-item relative w-full ">
 
@@ -205,6 +206,119 @@
              </div>
          </div>
      </section>
+     <!-- Happy client section  -->
+      <section class="my-24">
+        <h3 class="text-5xl font-bold text-center mb-12">Happy  <span class="text-bike-primary">Clients says</span></h3>
+        <!-- Card-container  -->
+          <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <!-- Card-1  -->
+              <div class="card bg-base-100 w-full border border-2">
+
+                <figure class="px-10 pt-10">
+                  <div class="avatar">
+                    <div class="w-36 rounded-full">
+                      <img src="./images/others/user-1.png" />
+                    </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  
+                  <p class="text-gray-400 font-bold">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                  <div class="card-actions">
+                    <div class="rating mb-4">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked="checked" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    
+                  </div>
+                  <h4 class="text-blue-400 font-bold mb-4">Regina Miles</h4>
+                  <h3 class="text-gray-800 font-bold">Banker
+                    
+                  </h3>
+                </div>
+              </div>
+                <!-- Card-2  -->
+                <div class="card bg-base-100 w-full border border-2">
+                  <figure class="px-10 pt-10">
+                    <div class="avatar">
+                      <div class="w-36 rounded-full">
+                        <img src="./images/others/user-2.png" />
+                      </div>
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    
+                    <p class="text-gray-400 font-bold">Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                    <div class="card-actions">
+                      <div class="rating mb-4">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-orange-400"
+                          checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      
+                    </div>
+                    <h4 class="text-blue-400 font-bold mb-4">Regina Miles</h4>
+                    <h3 class="text-gray-800 font-bold">Banker
+                      
+                    </h3>
+                  </div>
+                </div>
+                  <!-- Card-3  -->
+              <div class="card bg-base-100 w-full border border-2 relative md:left-[50%] lg:left-[0%]">
+                <figure class="px-10 pt-10">
+                  <div class="avatar">
+                    <div class="w-36 rounded-full">
+                      <img src="./images/others/user-3.png" />
+                    </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  
+                  <p class="text-gray-400 font-bold">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                  <div class="card-actions">
+                    <div class="rating mb-4">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked="checked" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    
+                  </div>
+                  <h4 class="text-blue-400 font-bold mb-4">Regina Miles</h4>
+                  <h3 class="text-gray-800 font-bold">Banker
+                    
+                  </h3>
+                </div>
+              </div>
+
+          </div>
+
+
+      </section>
      <!-- FAQ section  -->
       <section class="my-24">
         <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
@@ -256,6 +370,7 @@
           </div>
 
       </section>
+
   </main>
   <!-- footer section  -->
   
